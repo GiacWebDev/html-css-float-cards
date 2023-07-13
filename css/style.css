@@ -11,19 +11,71 @@ body{
   font-family: 'Fredoka', sans-serif;
 }
 
+img{
+  max-height: 100px;
+}
+
 /* main-container */
 
 .main-container{
   margin: auto;
-  max-width: 1000px;
+  max-width: 1100px;
   text-align: center;
+  width: 90%;
 }
 
 .main-container h1{
   color: #E53270;
   padding: 30px 0px;
+  font-size: 37px;
 }
 
 .main-container header p{
-  padding-top: 10px;
+  padding: 20px 0px;
+  color: black;
+}
+
+/* main */
+
+
+main .general-boxes{
+  width: 320px;
+  background-color: #0F0E17;
+  text-align: left;
+  box-shadow: 0px 0px 10px 0px grey;
+  margin: 20px 15px;
+  float: left;
+}
+
+main .image-box{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+main h3, p {
+  color: white;
+}
+
+main .image-box, .info{
+  display: inline-block;
+}
+
+main .info{
+  vertical-align: middle;
+}
+
+main .info h3{
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+main .info p{
+  font-size: .8rem;
+  padding: 5px 0px;
+}
+
+main .info span a{
+  text-decoration: none;
+  color: #87beeb;
+  font-size: .8rem;
 }
