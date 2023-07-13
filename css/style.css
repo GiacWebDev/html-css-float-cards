@@ -1,4 +1,5 @@
-/* font-family: 'Fredoka', sans-serif; */
+
+/* general */
 
 *{
   margin: 0;
@@ -6,3 +7,23 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* main-container */
+
+.main-container{
+  margin: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.main-container h1{
+  color: #E53270;
+  padding: 30px 0px;
+}
+
+.main-container header p{
+  padding-top: 10px;
+}
